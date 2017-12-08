@@ -1,0 +1,10 @@
+<web-app>
+<servlet>
+		<servlet-name>home</servlet-name>
+		<servlet-class>homeServlet</servlet-class>
+</servlet>
+		<servlet-mapping>
+			<servlet-name>home</servlet-name>
+			<url-pattern>/home</url-pattern>
+		</servlet-mapping>
+</web-app>
